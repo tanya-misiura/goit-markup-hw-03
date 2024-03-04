@@ -4,8 +4,16 @@ body {
     background: #fff;
 }
 
+h1, h2, h3, p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 ul {
     list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
 }
 
 a {
@@ -25,9 +33,19 @@ button {
     color: #2e2f42;
 }
 
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /**===============HEADER================ */
 
-.header {}
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-navigation {}
 
@@ -95,6 +113,10 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-bottom: 188px;
+    padding-top: 48px;
+    margin: 0 auto;
+    max-width: 496px;
 }
 
 .hero-order-btn {
@@ -135,6 +157,11 @@ button {
     color: #434455;
 }
 
+.features-wrap {
+    padding: 120px 156px 120px 156px;
+    margin: 0 auto;
+}
+
 /** ========================================== */
 
 /** ==================TEAM==================== */
@@ -143,7 +170,12 @@ button {
     background: #f4f4fd;
 }
 
-.team-title {}
+.team-title {
+    padding-bottom: 120px;
+    padding-top: 72px;
+    margin: 0 auto;
+    max-width: 162px;
+}
 
 .team-list {}
 
@@ -176,7 +208,11 @@ button {
 
 .portfolio {}
 
-.portfolio-title {}
+.portfolio-title {
+    width: 218px;
+    margin: 0 auto;
+    padding-bottom: ;
+}
 
 .portfolio-menu-list {}
 
