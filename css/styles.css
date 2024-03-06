@@ -18,10 +18,15 @@ ul {
 
 a {
 text-decoration: none;
+color: currentColor;
 }
 
 button {
     cursor: pointer;
+}
+
+address {
+    font-style: normal;
 }
 
 .title {
@@ -40,14 +45,21 @@ button {
     padding-right: 15px;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
 /**===============HEADER================ */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
-.header-navigation {}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -57,13 +69,17 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-logo-color{
     color: #2e2f42;
 }
 
-.header-menu-list {}
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-menu-item {}
 
@@ -73,6 +89,9 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 
 .header-menu-link:hover, .header-menu-link:focus {
@@ -81,9 +100,13 @@ button {
 
 .adress {
     font-style: normal;
+    margin-left: auto;
 }
 
-.header-contact-list {}
+.header-contact-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-contact-item {}
 
@@ -105,6 +128,8 @@ button {
 
 .hero {
     background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -113,9 +138,8 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding-bottom: 188px;
-    padding-top: 48px;
     margin: 0 auto;
+    margin-bottom: 48px;
     max-width: 496px;
 }
 
@@ -136,7 +160,10 @@ button {
 
 /** =================FEATURES================== */
 
-.features {}
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .features-list {}
 
@@ -168,13 +195,14 @@ button {
 
 .team {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
-    padding-bottom: 120px;
-    padding-top: 72px;
     margin: 0 auto;
-    max-width: 162px;
+    margin-bottom: 72px;
+    max-width: 164px;
 }
 
 .team-list {}
@@ -206,12 +234,15 @@ button {
 
 /** ================PORTFOLIO================= */
 
-.portfolio {}
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .portfolio-title {
-    width: 218px;
+    width: 220px;
     margin: 0 auto;
-    padding-bottom: ;
+    margin-bottom: 72px;
 }
 
 .portfolio-menu-list {}
@@ -241,6 +272,8 @@ button {
 
 .footer {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
