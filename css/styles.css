@@ -21,10 +21,6 @@ text-decoration: none;
 color: currentColor;
 }
 
-button {
-    cursor: pointer;
-}
-
 address {
     font-style: normal;
 }
@@ -168,19 +164,22 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     border-radius: 4px;
     padding: 16px 32px;
     border: none;
+    text-align: center;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    cursor: pointer;
 }
 
 .hero-order-btn:hover, .hero-order-btn:focus {
     background-color: #404bbf;
 }
 
-.hero-btn-container {
-    text-align: center;
-}
+
 
 /** ========================================== */
 
@@ -249,7 +248,7 @@ img {
 .team-item-picture {}
 
 .team-item-container {
-    padding: 32px 16px;
+    padding: 32px 0px;
     text-align: center;
 }
 
@@ -312,6 +311,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-menu-item-descr {
@@ -339,6 +339,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-color {
@@ -350,7 +352,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
     max-width: 264px;
 }
 
